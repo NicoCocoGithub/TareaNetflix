@@ -42,7 +42,7 @@ public class Serie extends VideoFilm implements Visualizable{
 	@Override
 	public void marcarVisto() {
 		// TODO Auto-generated method stub
-		this.visto = this.SI;
+		this.visto = VideoFilm.SI;
 		this.cantidadTiempoVisto = (int) (Math.random() * (super.getDuracion())); // Si lo vio se marca un tiempo que lo vio
 
 	}

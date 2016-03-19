@@ -1,7 +1,8 @@
 package TareaNetfixHerencia;
-import java.util.Random;
+
 
 public class VideoFilm {
+	
 	
 	
 	private String titulo;
